@@ -1,0 +1,144 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#cont{
+	width: 100%;
+	font-family: sans-serif;
+	}
+#cont h1{
+	font-size: 45px;
+	font-family:monospace sans-serif;
+	padding-top:20px; 
+}
+#cont p{
+	font-family:monospace sans-serif;
+	font-size: 20px;
+	padding: -10px;
+}
+#left_add h1 {
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+#add{
+	width: 100%;
+	padding: 0px;
+}
+#add #add1{
+	padding: 0px;
+}
+#add #add1 h4{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#add #add1 address ul li{
+	display: block;
+	line-height: 25px;
+}
+#add #add2{
+	padding: 0px;
+}
+#add #add2 h4{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#add #add2 ul li{
+	display: block;
+	line-height: 25px;
+}
+#add #add2 ul li:hover{
+	cursor: pointer;
+	color: green;
+	font-size: 15px;
+}
+#add #add3{
+	padding: 0px;
+}
+#add #add3 h4{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#add #add3 ul li{
+	display: block;
+	line-height: 25px;
+}
+#add #add3 ul li:hover{
+	cursor: pointer;
+	color: red;
+	font-size: 15px;
+}
+#f_for_all{
+
+	padding: 0px;
+	
+}
+#f_for_all input[type=text]{
+	
+	padding: 15px 10px;
+	width: 90%;
+	font-size: 13px;
+	font-weight: 700;
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #FFF;
+	outline: none;
+}
+textarea.text {
+	padding: 15px 10px;
+	width: 90%;
+	font-size: 13px;
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #FFF;
+	outline: none;
+}
+#f_for_all input[type=submit]{
+	padding: 15px 10px;
+	width: 90%;
+	font-size: 13px;
+	font-weight: 700;
+	color: #FFF;
+	background-color: #31708f;
+	border: 1px solid #FFF;
+	outline: none;
+}
+#f_for_all input[type=submit]:hover{
+	cursor: pointer;
+	font-weight: 700;
+	transition: 1s;
+	background-color:#c41228;
+}
+#news{
+	padding: 100px 0;
+	background-color: #202020;
+	font-family: 'Montserrat', sans-serif;
+}
+#news #per h3{
+	font-size: 25px;
+	color: #FFF;
+}
+#news #sub input[type=email]{
+	padding: 15px 10px;
+	width: 70%;
+	font-size: 13px;
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #FFF;
+	outline: none;
+}
+#news #sub input[type=submit]{
+	width: 28%;
+	padding: 15px 0;
+	border: none;
+	outline: none;
+	color: #FFF;
+	background-color: #31708f;
+	font-weight: 700;
+	transition: 1s;
+	margin-left: 5px;
+}
+#news #sub input[type=submit]:hover{
+	color: #FFF;
+	background-color: #c41228;
+}

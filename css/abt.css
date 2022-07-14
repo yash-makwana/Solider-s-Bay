@@ -1,0 +1,38 @@
+.abt{
+	height:1000px;
+}
+#abt-left{
+	width:350px;
+	height:300px;
+	float: left;
+}
+#abt-right{
+	padding-left: 50px;
+	width:950px;
+	height:300px;
+	float: right;
+}
+#abt2-left{
+	padding-right: 50px;
+	width:950px;
+	height:400px;
+	float: left;
+}
+#abt2-right{
+	padding-top: 70px;
+	width: 350px;
+	height: 400px;
+	float: right;
+}
+#abt3-left{
+	padding-top: 30px;
+	width: 350px;
+	height: 300px;
+	float: left;
+}
+#abt3-right{
+	padding-left: 50px;
+	width: 950px;
+	height: 300px;
+	float: right;
+}

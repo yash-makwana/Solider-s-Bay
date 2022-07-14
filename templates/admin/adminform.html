@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="../../css/style.css">
+   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style>
+     	body{
+     		margin: 0px;
+	padding: 0px;
+	height: auto;
+	width:100%; 
+    background-image: url("../../myimage/570753.jpg");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: auto;
+     	}
+     </style>
+<script>
+		function myfunction(){
+			   var x = document.getElementById("myInput");
+    if (x.type == "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+		}
+	</script>
+
+  
+</head>
+<body>	
+		<center><button class="btn btn-danger btn-md"><a href="../index.php" style="color: #fff;">
+		Go  Back</a></button></center>
+      		<form method="post" action="session_admin.php">
+						<p>Username:-</p>
+							<input type="text" name="name" placeholder="Enter Username">
+								<p>Password:-</p>
+							<input type="password" name="password" id="myInput" placeholder="Enter Password"><br>
+						<input type="checkbox" title="showpassword" onclick="myfunction()">Show<br>
+				
+						<center><input type="submit" name="btnc" value="Login"></center>
+			
+
+		</form>
+      
+    </body>
+</html>
+  
+  
+
+</body>
+
+</html>

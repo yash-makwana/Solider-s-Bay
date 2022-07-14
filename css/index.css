@@ -1,0 +1,359 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width:100%; 
+	
+}
+img{
+	width:100%; 
+}
+
+/*anonymous start here*/
+#anon{
+	padding: 0px;
+}
+#anon img{
+	width: 100%;
+
+}
+#anon #head{
+	color:#000;
+	position: absolute;
+	top:45px;
+	right:23%;
+	font-size: 40px;
+}
+#anon #head1{
+	color:#000;
+	position: absolute;
+	top:255px;
+	right:43%;
+	font-size: 40px;
+}
+#anon a{
+	color:#000;
+	border: 5px solid #000;
+	position: absolute;
+	top:360px;
+	right:32%;
+	font-size: 40px;	
+}
+#anon a:hover{
+	background-color: #000;
+	color: #fff;
+	border:7px solid #fff;
+	font-size: 43px;
+
+}
+/*anonymous ends here*/
+#slider{
+	 
+	height: 600px;
+	width: 101%;
+}
+
+
+#main1 h2{
+	font-family:fantasy;
+	color: #fff;
+}
+#asking-section {
+	background-image: url("../myimage/asking.jpg");
+	background-repeat: no-repeat;
+	background-position:0% 0%;
+	background-attachment: fixed ;
+	background-size: cover;
+	padding: 100px 0 120px;
+	text-align: center;
+}
+
+#asking-section h1 {
+	padding:50px;
+	font-size: 30px;
+	color: #FFF;
+
+}
+
+#asking-section p {
+	width: 50%;
+	font-size: 23px;
+	margin: 30px auto;
+	line-height: 25px;
+	color: #FFF;
+}
+#But {
+	margin-top: 80px;
+	padding-bottom: 30px;
+	text-align:center;
+}
+
+#But a {
+	padding: 20px 50px;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+}
+
+#But a:hover {
+	border-width: 3px;
+	
+}
+/*JOINING STARTS HERE*/
+.style-grid-1 {
+	padding: 0;
+	position: relative;
+}
+
+.style-grid-1 img {
+	height: 792px;
+}
+
+.text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.36);
+	padding: 50px;
+	
+}
+
+.text h3{
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+	margin-top:150px;
+}
+
+.joining a {
+	padding: 20px 50px;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	line-height: 30px;
+}
+
+.image-1 {
+	position: relative;
+}
+
+.image-2 {
+	position: relative;
+}
+
+
+#duty {
+	background-image: url("../myimage/570645.jpg");
+	background-repeat: no-repeat;
+	background-position:0% 0%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0 120px;
+	text-align: center;
+	max-height: 1000px;
+}
+
+#text_begin {
+	width: 50%;
+	padding: 20% 0;
+	margin-top: -100px;
+	background-color: rgba(0, 0, 0, 0.35);
+	height: 1000px;
+}
+
+#text_begin h2 {
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 2px 2px #32323b;
+	
+}
+
+#text_begin h4 {
+	color: #FFF;
+	font-size: 30px;
+	text-shadow: 2px 2px #32323b;
+	
+}
+
+#text_begin h5 {
+	font-size: 40px;
+	color: #FFF;
+	text-shadow: 3px 3px #c41228;
+}
+
+#text_begin h5 small {
+	font-size: 30px;
+	color: #EEE;
+	text-shadow: 2px 2px #001c44;
+}
+#duty-a a{
+	
+	padding: 15px 50px;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+}
+#duty-a a:hover{
+	border-width:3px; 
+}
+#fact{
+	padding: 100px 0;
+}
+#fact img:hover{
+	opacity: 0.9;
+}
+#fact-1{
+	margin-top: 50px;
+}
+
+#fact-1 h3 {
+	color: #000;
+	margin-bottom: 15px;
+}
+
+#fact-1 p {
+	width: 70%;
+	line-height: 25px;
+	margin: 0 auto;
+	text-align: center;
+}
+#fact-btn-1 {
+	text-align: right;
+	color: #000;
+}
+#fact-btn-1 a {
+	margin:35px 140px; 
+	padding: 15px 50px;
+	border: 2px solid #000;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+}
+#fact-btn-1 a:hover{
+	border-width: 3px;
+}
+#newsletter {
+	background-image: url("../myimage/news.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 300px 0;
+}
+
+#newsletter h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #FFF;
+}
+
+#newsletter p {
+	font-size: 15px;
+	color: #FFF;
+	margin-bottom: 50px;
+}
+#news-btn a{
+	
+	padding: 15px 50px;
+	border: 2px solid #fff;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+}
+#news-btn a:hover{
+	border-width: 3px;
+}
+
+#footer-1,#footer-2 {
+	
+	border-bottom: 1px solid #333;
+}
+#footer-1 {
+	padding: 0;
+}
+
+#footer-1 ul li {
+	display: block;
+	line-height: 30px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+
+#footer-1 ul li a {
+	color: #000;
+}
+
+#footer-1 a:hover {
+	color: #c41228;
+}
+#copyright {
+	padding: 0 100px 50px;
+}
+
+#copy1 {
+	padding: 0;
+}
+
+#copy1 p {
+	color: #000;
+	margin-top: 10px;
+}
+
+#copy1 p a {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+
+#copy1 p a:hover {
+	color: #c41228;
+}
+	/*icons start here*/
+
+	.icons {
+		text-align: right;
+	}
+
+	ul.social-icons li {
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	.icons ul.social-icons li a {
+		font-size: 30px;
+		color: #000;
+	}
+
+	ul.social-icons li a.facebook:hover {
+		color: #3b5998;
+	}
+
+	ul.social-icons li a.twitter:hover {
+		color: #1dcaff;
+	}
+
+	ul.social-icons li a.googleplus:hover {
+		color: #d34836;
+	}
+
+	ul.social-icons li a.instagram:hover {
+		color: #517fa4;
+	}
+
+	ul.social-icons li a.youtube:hover {
+		color: #bb0000;
+	}
+	/*icons ends here*/
+	#contact{
+
+
+		margin-left: 70px;
+	}

@@ -1,0 +1,120 @@
+body
+{
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    background-image: url("../myimage/back.jpg");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: auto;
+   
+
+}
+.top-nav
+{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background-color:#000;
+}
+.sidenav 
+{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover 
+{
+    color:blue;
+    display:block;
+}
+
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.main 
+{
+    margin-top: 0px;
+    transition: margin-left .5s;
+}
+
+ @media screen and (max-height: 450px) 
+ {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+ }
+ 
+ p
+ {
+      margin-top: 10px;
+ }
+ .proimg
+ {
+  height: 150px;
+  width: 180px;
+
+ }
+.solider1{
+	height:550px   ;
+	padding:140px 0;
+	width:100%;
+	background-color:#000;
+	color:#fff;
+	margin:50px 50px;
+	
+}
+.solider1 img{
+	border-radius:50%;
+	margin-top:-165px;
+}
+.solider1 p{
+	font-weight:900;
+	font-size:25px;
+}
+.pm-button{
+	padding:55px 350px;
+}
+.solider2{
+	height:550px;
+	padding:140px 0;
+	width:100%;
+	background-color:#000;
+	color:#fff;
+	margin:50px 50px;
+	
+}
+.solider2 img{
+	border-radius:50%;
+	margin-top:-165px;
+}
+.solider2 p{
+	font-weight:900;
+	font-size:25px;
+}
+.pagination{
+	font-size:24px;
+	
+}

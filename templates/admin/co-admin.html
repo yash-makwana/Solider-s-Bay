@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+		<title>SOLDIER'S BAY</title>
+	<!--bootstrap include-->
+		<link rel="stylesheet" type="text/css" href="../../bootstrap/bootstrap.min.css">
+		   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<script type="text/javascript" src="../../bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../bootstrap/jquery.min.js"></script>
+
+
+		<link rel="stylesheet" type="text/css" href="../../css/coadmin.css">	
+	
+		
+	
+
+</head>
+<body>
+		<!--navbar starts here!--> 
+				<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a href="#"><span style="color:red; font-size:30px;  font-family:serif;">SOLDIER'S</span><span style="font-family:serif; color:white;"> BAY</span></a></li>
+	  <!--used inline css-->
+					
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+
+        <li><a href="getuser.php" style="font-size: 20px;">List Of Solider's</a></li>
+        <li><a href="message.php" style="font-size: 20px;">Message read</a></li>
+        <li><a href="viewsubscription.php" style="font-size: 20px;">View Subscription</a></li>
+        <li><a href="co-admin.html" style="font-size: 20px;">Add Solider</a></li>
+        <li><a href="logout.php" style="font-size: 20px;">Logout</a></li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right col-md-3">
+<form class="navbar-form navbar-right" action="https://google.com">
+  
+</form>
+	  </ul>
+    </div>
+  </div>
+</nav>
+			
+		<div class="container-fluid">
+	
+		<div class="row">
+
+		<!-- DESCRIPTION DIVISION -->
+
+			<div class="col-sm-12  " id="DESCRIPTION">
+				<center><h3 style="color:#fff;">HELLO GENERAL PLEASE UPDATE US!</h3></center>
+				<form method="post" action="co-adminprocessing.php" class="form" enctype="multipart/form-data">
+					<ul>
+						<li>
+							<label for="name">Enter Soldier Name</label>
+							<input type="name" name="sname" maxlength="50">
+							<span><B>Enter full name of soldier</B></span>
+						</li>
+						<li>
+							<label for="Account_no"><B>Account Number</B></label>
+							<input type="Account" name="account" maxlength="15">
+							<span>Enter soldiers Account Number</span>
+						</li>
+						<li>
+							<label for="Achievements"><B>Achievements of soldier</B></label>
+							<input type="Achievements" name="achievements" maxlength="255">
+							<span>Description of soldiers Role & Achievements</span>
+						</li>
+						
+						<li>
+					    <label for="about"><B>About You</B></label>
+					    <textarea name="about" ></textarea>
+					    <span>Say something about yourself</span>
+					</li>
+					<li>
+					    <label for="Category"><B>Select The Category</B></label>
+					   <select name="category">
+					   	<option value="">--select one--</option>
+					    <option value="ARMY">ARMY</option>
+					    <option value="NAVY">NAVY</option>
+					    <option value="AIR FORCE">AIR FORCE</option>
+					    </select>
+					    <span>Choose Category</span>
+					</li>
+					<li>
+					    <label for="Sub-Category"><B>Select The Sub-Category</B></label>
+					   <select name="subcategory">
+					   	<option value="">--select one--</option>
+					    <option value="Infantry Regiments (Foot Soldiers)">Infantry Regiments (Foot Soldiers)</option>
+					    <option value="Armoured Corps (Tanks)">Armoured Corps (Tanks)</option>
+					    <option value="Artillery (Big Guns)">Artillery (Big Guns)</option>
+					    <option value="Corps of Signals (Radios and Communications)">Corps of Signals (Radios and Communications)</option>
+					    <option value="Corps of Engineers (Engineers)">Corps of Engineers (Engineers)</option>
+					    <option value="Corps of Army Air Defence (Anti Aircraft)">Corps of Army Air Defence (Anti Aircraft)</option>
+					    <option value="Mechanised Infantry (Armoured cars carrying infantry soldiers)">Mechanised Infantry (Armoured cars carrying infantry soldiers)</option>
+					    <option value="Army Aviation Corps (Army's own Air Force)">Army Aviation Corps (Army's own Air Force)</option>
+					    <option value="Intelligence Corps (Spy Shit)">Intelligence Corps (Spy Shit)</option>
+					    </select>
+					    <span>Choose Sub-Category</span>
+					</li>
+					<li>
+					    <label for="Image"><B>Upload Image</B></label>
+					    <input type="file" name="image">
+					    <span>Upload image</span>
+					</li>
+					<li>
+					    <input type="submit" name="submit" value="Send This" >
+					</li>
+					
+
+					</ul>
+				<!-- <input type="text" name="name" placeholder="Enter Your Name" required> -->
+
+				<!-- <p>Email:-</p> -->
+				<!-- <input type="email" name="email" placeholder="Enter Your Email" required>
+
+				<p>Password:-</p>
+				<input type="password" name="password" id="myInput" placeholder="Enter Password" required><br>
+
+				<input type="submit" name="" value="Create">
+				<a href="loginform.php">Already registered</a><br> -->
+
+			</form>
+
+			</div>
+	
+		</div>
+	</div>	
+</body>
+</html>

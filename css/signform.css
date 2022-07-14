@@ -1,0 +1,73 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(../image/zero.jpg);
+	background-size: cover;
+	background-position: top;
+	font-family: sans-serif;
+}
+#signupbox{
+	width:450px;
+	height: 450px;
+	background: #fff;
+	color: #fff;
+	top: 54%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 60px 30px;
+}
+#sign_img{
+	
+	border-radius:20%;
+	position:absolute;
+	top: -25%;
+	left:1%;   
+}
+
+#signupbox p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: black;
+}
+#signupbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#signupbox input[type="text"],input[type="email"],input[type="password"]{
+	border:none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:black;
+	font-size: 15px; 
+}
+#signupbox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #e80;
+	color: black;
+	font-size: 19px;
+	 border-radius:20px; 
+}
+#signupbox input[type="submit"]:hover{
+	cursor: pointer;
+	background:black;
+	color:white; 
+}
+#signupbox a{
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 35px;
+	color:#e80;
+	padding-left: 50px;
+}
+#signupbox a:hover{
+	cursor: pointer;
+	color: black;
+
+}
